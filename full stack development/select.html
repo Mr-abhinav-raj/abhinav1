@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select</title>
+</head>
+<body>
+    <h6>getting no backend value</h6>
+    <label>select a course</label>
+    <select>
+        <!-- only user can select ,no input for server -->
+        <!-- <option> this will show to user</option> -->
+        <!-- <option value="this will go to backend">this will show to user</option> -->
+    <option>c</option>
+    <option>c++</option>
+    <option>Java</option>
+    <option>Python</option>
+    </select><br><br>
+    <!-- user will enter input will be blank for all in backend -->
+    <h6>getting blank for all backend value</h6>
+    <label>select a course</label>
+    <select>
+    <option value="">none</option>
+    <option value="">c</option>
+    <option value="">c++</option>
+    <option value="">Java</option>
+    <option value="">Python</option>
+    </select><br><br>
+    <h6>getting backend value </h6>
+    <label>select a course</label>
+    <!-- user will enter as well as in backend we will get the value -->
+    <select>
+    <option value="c">c</option>
+    <option value="c++">c++</option>
+    <option value="Java">Java</option>
+    <option value="Python">Python</option>
+    </select>
+</body>
+</html>
